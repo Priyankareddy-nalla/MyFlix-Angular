@@ -164,7 +164,7 @@ export class FetchApiDataService {
 
 
   // Function to extract response data from API responses
-  private extractResponseData(res: any): any {
+  private extractResponseData(res: object): any {
     const body = res;
     return body || {};
   }
