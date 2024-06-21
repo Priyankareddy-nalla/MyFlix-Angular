@@ -1,0 +1,35 @@
+// Define some color variables
+$primary-color: blue;
+$primary-dark: #303f9f;
+$accent-color: #f438d1;
+
+mat-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  max-width: 400px;
+  padding: 2rem;
+
+  &-header {
+    text-align: center;
+
+    mat-card-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: $primary-color;
+    }
+  }
+
+  &-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+    button {
+      background-color: $accent-color;
+      color: #fff;
+      padding: 0.5rem 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+}
